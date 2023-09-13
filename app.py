@@ -2,7 +2,8 @@ import streamlit as st
 import openai
 
 openai.api_key = st.secrets["api_key"]
-st.title("CHATGPT X DALLE")
+
+st.title("ChatGPT Plus DALL-E")
 
 with st.form("form"):
     user_input = st.text_input("Prompt")
